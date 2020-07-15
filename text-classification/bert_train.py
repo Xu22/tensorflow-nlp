@@ -2,8 +2,7 @@ import tensorflow as tf
 import numpy as np
 import os
 import time
-from utils import dataHelper as data_helpers
-# import data_helpers
+import data_helpers
 from model.bert_fune import Model, BertConfig
 from bert import tokenization
 from tqdm import tqdm
